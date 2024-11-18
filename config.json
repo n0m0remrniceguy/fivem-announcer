@@ -1,18 +1,11 @@
 {
   "sending": true,
+  "sendFrequency": 3000,  // Frequency in milliseconds (e.g., 3 seconds)
+  "sendCount": 5,  // Number of times to send the messages
+  "cycleMessages": true,  // Whether to cycle through messages or not
   "messages": [
-    {
-      "message": "You are getting nuked by nigger squad",
-      "send": true
-    },
-    {
-      "message": "This Server is getting raped by nigger clan",
-      "send": false
-    },
-    {
-      "message": "This server is getting hacked by kfc niggers",
-      "send": true
-    }
-  ],
-  "sendFrequency": 1000
+    { "enabled": true, "message": "This is the first message." },
+    { "enabled": false, "message": "This is the second message." },
+    { "enabled": true, "message": "This is the third message." }
+  ]
 }
