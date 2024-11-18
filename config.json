@@ -1,4 +1,18 @@
 {
   "sending": true,
-  "message": "You are getting nuked by NIGGER MAFIA. NIGGERS ON TOP!"
+  "messages": [
+    {
+      "message": "This is the first message.",
+      "send": true
+    },
+    {
+      "message": "This is the second message.",
+      "send": false
+    },
+    {
+      "message": "This is the third message.",
+      "send": true
+    }
+  ],
+  "sendFrequency": 1000
 }
